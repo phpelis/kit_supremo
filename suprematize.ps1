@@ -4,7 +4,7 @@
 $ErrorActionPreference = "Stop"
 
 # 1. Configuration
-$repoUrl = "https://github.com/phpel/kit_supremo.git" # ATUALIZE COM SEU REPO REAL
+$repoUrl = "https://github.com/phpelis/kit_supremo.git" # ATUALIZE COM SEU REPO REAL
 $tempDir = Join-Path $env:TEMP "kit_supremo_temp"
 
 Write-Host "`n🚀 Iniciando Transplante do Kit Supremo..." -ForegroundColor Cyan

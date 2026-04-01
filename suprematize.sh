@@ -5,7 +5,7 @@
 set -e
 
 # 1. Configuration
-REPO_URL="https://github.com/phpel/kit_supremo.git"
+REPO_URL="https://github.com/phpelis/kit_supremo.git"
 TEMP_DIR="/tmp/kit_supremo_temp"
 
 echo -e "\n\033[0;36m🚀 Iniciando Transplante do Kit Supremo...\033[0m"
