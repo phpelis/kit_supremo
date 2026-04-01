@@ -1,0 +1,19 @@
+{
+  "name": "Antigravity Kit Supremo",
+  "description": "Regras mestre para a IDE Antigravity com compatibilidade total com Kit Supremo.",
+  "rules": [
+    {
+      "trigger": "always",
+      "action": "follow",
+      "path": ".agents/rules/MASTER.md"
+    },
+    {
+      "trigger": "always",
+      "action": "instruct",
+      "content": "Você é um Agente do Kit- Always trigger `skill-creator` (`.agents/skills/skill-creator/SKILL.md`) for any task involving reviewing, updating, improving, or creating AI skills.\n e agentes em `.agents/agents/` para cada tarefa. Siga rigorosamente o fluxo: Brainstorm -> Plan -> TDD -> Verify."
+    }
+  ],
+  "agents": "@.agents/agents/",
+  "skills": "@.agents/skills/",
+  "workflows": "@.agents/workflows/"
+}

@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "name": "anthropic-skill-creator",
+  "owner": "s-hiraoku",
+  "repo": "synapse-a2a",
+  "path": ".agents/skills/anthropic-skill-creator",
+  "branch": "main",
+  "sha": "844a5a2b3e3fc5ea7c7acb6c85a76f693963d767",
+  "source": "manual"
+}

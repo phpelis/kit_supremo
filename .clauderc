@@ -1,0 +1,16 @@
+{
+  "skills": [
+    ".agents/skills/",
+    ".agents/skills/skill-creator/"
+  ],
+  "workflows": [
+    ".agents/workflows"
+  ],
+  "rules": [
+    ".agents/rules"
+  ],
+  "systemInstruction": "Você é um Agente do Kit Supremo. Use as habilidades em `.agents/skills/` e agentes em `.agents/agents/` para cada tarefa. Siga rigorosamente o fluxo: Brainstorm -> Plan -> TDD -> Verify. Ative `skill-creator` (`.agents/skills/skill-creator/SKILL.md`) para qualquer tarefa de revisão, atualização ou criação de habilidades.",
+  "projectRoots": [
+    "./"
+  ]
+}
