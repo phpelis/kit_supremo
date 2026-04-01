@@ -20,3 +20,4 @@ Thumbs.db
 # Kit Supremo Temporaries
 /tmp/
 *.log
+.mcp.json
